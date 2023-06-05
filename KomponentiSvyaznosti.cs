@@ -17,7 +17,6 @@
             {
                 if (graph[currentDot, i] == 1 && dots.Contains(i)) // если из текущей точки добираемся до i-ой и она ещё не обработана,
                 {
-                   // Console.WriteLine(currentDot + " " + i);
                     dotsToWork.Enqueue(i); // то добавляем её в очередь на обработку
                 }
             }
