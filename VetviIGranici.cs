@@ -20,6 +20,7 @@
     }
     markedGraph[graphSize, graphSize] = -1 ;
     double h = 0;
+    // далее рекурсивно пересчитываем минимум по строкам и столбцам и уменьшаем матрицу
     return GraphDestroyer(markedGraph, h);
 }
 double GraphDestroyer(double[,] graph, double h)
